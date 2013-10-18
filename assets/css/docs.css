@@ -1070,7 +1070,9 @@ form.bs-docs-example {
        -o-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out;
 }
-
+.prototyped a{
+color: #006400;	
+}
 a.color-change:hover {
   color:#006400;
   border-color: #006400;

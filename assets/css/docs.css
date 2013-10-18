@@ -1079,29 +1079,5 @@ a.color-change:hover {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .color-change {
-	  display: block;
-  padding: 4px;
-  color:#006400
-  line-height: 20px;
-  border: 1px solid #ddd;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  -webkit-box-shadow: #ADFF2F;
-     -moz-box-shadow: #ADFF2F;
-          box-shadow: #ADFF2F;
-  -webkit-transition: all 0.2s ease-in-out;
-     -moz-transition: all 0.2s ease-in-out;
-       -o-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
-}
 
-a.color-change:hover {
-  color:#006400;
-  border-color: #006400;
-  -webkit-box-shadow: #ADFF2F;
-     -moz-box-shadow: #ADFF2F;
-          box-shadow: #ADFF2F;
-}
 }

@@ -850,7 +850,7 @@ form.bs-docs-example {
           transition: all 0.2s ease-in-out;
 }
 .prototyped a{
-color: #32CD32;	
+color: #00FA9A	;	
 }
 a.color-change:hover {
   color:#006400;

@@ -21,7 +21,21 @@ h3 code {
   font-weight: normal;
 }
 
-
+.hov {
+		background-image:url('../../medi.png');
+		background-repeat:no-repeat;
+		padding-top:20px;
+		margin-left:6px;
+		margin-right:6px;
+		margin-top:-0.2%;
+		background-position:center;
+		}
+		.hov:hover {
+		background-image:url('../../wmed.png');
+		background-repeat:no-repeat;
+		
+		
+}
 
 /* Tweak navbar brand link to be super sleek
 -------------------------------------------------- */
@@ -833,6 +847,33 @@ form.bs-docs-example {
   top: auto;
   bottom: 270px;
 }
+.color-change {
+	  display: block;
+  padding: 4px;
+  line-height: 20px;
+  border: 1px solid #ddd;
+  color: #006400;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: #ADFF2F;
+     -moz-box-shadow: #ADFF2F;
+          box-shadow: #ADFF2F;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+.prototyped a{
+color: #31B404;	
+}
+a.color-change:hover {
+  color:#006400;
+  border-color: #006400;
+  -webkit-box-shadow: #ADFF2F;
+     -moz-box-shadow: #ADFF2F;
+          box-shadow: #ADFF2F;
+}
 
 
 
@@ -1053,4 +1094,5 @@ form.bs-docs-example {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
 }
